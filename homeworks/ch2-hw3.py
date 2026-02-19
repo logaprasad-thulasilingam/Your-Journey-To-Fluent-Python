@@ -1,0 +1,5 @@
+principal = int(input("Enter the principal amount:"))
+rate = int(input("enter the rate of interest:"))
+time = int(input("enter the time period:"))
+SI = round((float((principal * rate * time)/100)),1)
+print ("The total simple interest is",SI)
